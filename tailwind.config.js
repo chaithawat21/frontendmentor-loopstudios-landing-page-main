@@ -17,8 +17,8 @@ export default {
         VeryDarkGray: 'var(--VeryDarkGray)',
       },
       backgroundImage: {
-        'hero-desktop': "url('./src/assets/images/desktop/image-hero.jpg')",
-        'hero-mobile': "url('./src/assets/images/mobile/image-hero.jpg')"
+        'hero-desktop': "url('../src/assets/images/desktop/image-hero.jpg')",
+        'hero-mobile': "url('../src/assets/images/mobile/image-hero.jpg')"
 
       },
       screens: {
