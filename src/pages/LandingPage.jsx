@@ -47,7 +47,7 @@ function LandingPage() {
         </section>
       </div>
       <div className='flex flex-row justify-between items-center mx-[5rem] mt-[5rem] md:justify-center md:mx-[2rem] sm:mx-[1rem]'>
-        <h2 className='font-JosefinSans  font-extralight text-[2.5rem]  '>OUR CREATIONS</h2>
+        <h2 className='font-JosefinSans  font-extralight text-[2.5rem] md:text-[2rem] '>OUR CREATIONS</h2>
         <button className='font-Alata font-thin tracking-[2px] px-[2rem] h-[2rem]  border-[1px] border-solid border-Black hover:bg-Black hover:text-White md:hidden' >SEE ALL</button>
       </div>
       <div className='grid grid-cols-4 justify-items-center gap-[1rem] mt-[3rem] mb-[5rem] mx-[5rem] md:grid-cols-1 md:mb-[2rem] md:mx-[2rem] sm:mx-[1rem] sm:mt-[2rem] ' >
