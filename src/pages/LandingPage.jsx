@@ -39,18 +39,18 @@ function LandingPage() {
 
   return (
     <div className='flex flex-col'>
-      <div className='flex flex-row mt-[5rem] justify-center md:flex-col md:px-[1rem]'>
+   <div className='flex flex-row mt-[5rem] justify-center md:flex-col md:mx-[2rem] sd:mx-[1rem]'>
         <img className='object-contain object-center relative z-0 left-[4rem] md:static' src={interactive} alt="interactive" />
         <section className='max-w-[39.25rem] bg-White relative z-10 right-[4rem] pl-[5rem] pt-[5rem] self-end md:static md:text-center md:pl-0 md:self-center md:pt-[2rem]'>
           <h1 className='font-JosefinSans font-light text-[3rem] leading-none md:text-[2rem]'>THE LEADER IN INTERACTIVE VR</h1>
           <p className='font-Alata text-DarkGray mt-[1rem]'>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
         </section>
       </div>
-      <div className='flex flex-row justify-between items-center mx-[5rem] mt-[5rem] md:justify-center sm:mx-[1rem]'>
+      <div className='flex flex-row justify-between items-center mx-[5rem] mt-[5rem] md:justify-center md:mx-[2rem] sm:mx-[1rem]'>
         <h2 className='font-JosefinSans  font-extralight text-[2.5rem]  '>OUR CREATIONS</h2>
         <button className='font-Alata font-thin tracking-[2px] px-[2rem] h-[2rem]  border-[1px] border-solid border-Black hover:bg-Black hover:text-White md:hidden' >SEE ALL</button>
       </div>
-      <div className='grid grid-cols-4 justify-items-center gap-[1rem] mt-[3rem] mb-[5rem] mx-[5rem] md:grid-cols-1 md:mb-[2rem sm:mx-[1rem] sm:mt-[2rem] ' >
+      <div className='grid grid-cols-4 justify-items-center gap-[1rem] mt-[3rem] mb-[5rem] mx-[5rem] md:grid-cols-1 md:mb-[2rem] md:mx-[2rem] sm:mx-[1rem] sm:mt-[2rem] ' >
         <figure className="relative cursor-pointer  text-White hover:text-VeryDarkGray ">
           <img className="object-contain object-center hover:opacity-[10%] " src={isScreens ?  deepEarthMobile : deepEarthDesktop} alt="deepEarth" />
           <figcaption className='absolute bottom-[1rem] left-[1rem] font-JosefinSans font-extralight text-[2rem] leading-none md:text-[1rem] '>DEEP<br />EARTH</figcaption>
